@@ -1,0 +1,21 @@
+package com.paradise.classtest;
+
+import java.util.Arrays;
+
+public class TestNew {
+	public static void main(String[] args) {
+		//数组的初始化
+		int[] arr = {1,2,3,4,5,6,7};
+		int[] arr1;
+		arr1 = new int[5];
+		System.out.println(Arrays.toString(arr)+Arrays.toString(arr1));
+		//遍历数组
+		for (int i=0; i<arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+		//数组的扩展
+		arr = Arrays.copyOf(arr, arr.length+1);
+		arr[7] = 8;
+		System.out.println(Arrays.toString(arr));
+	}
+}

@@ -1,0 +1,10 @@
+package com.paradise.classtest;
+
+public class Point {
+	int i;
+	int y;
+	public Point() {
+		this.i = 0;
+		this.y = 0;
+	}
+}
